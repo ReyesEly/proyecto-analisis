@@ -34,7 +34,7 @@ return [
     'google' => [
         'client_id' => env('GOOGLE_CLIENT_ID'),
         'client_secret' => env('GOOGLE_CLIENT_SECRET'),
-        'redirect' => 'http://proyecto-analisis2.test.xyz/auth/callback-url',
+        'redirect' => 'https://proyecto-analisis-production.up.railway.app/auth/callback-url',
     ],
 
 ];
