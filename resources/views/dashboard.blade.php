@@ -20,7 +20,7 @@
 @section('content')
    <div class="card position-relative">
     <img src="https://assets.materialup.com/uploads/cf947cf0-272a-452a-bb93-a8b7b7bdea95/preview.gif" alt="" class="img-fluid">
-    <h1 class="position-absolute top-50 start-50 translate-middle mb-0">{{ $saludo }} <b>{{ $user->name }}</b></h1>
+    <h3 class="position-absolute top-50 start-50 translate-middle mb-0">{{ $saludo }} <b>{{ $user->name }}</b></h3>
   </div>
 @stop
 
