@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Ferreteria 3-B'),
 
     /*
     |--------------------------------------------------------------------------
@@ -55,9 +55,10 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'https://proyecto-analisis-production.up.railway.app'),
 
-    'asset_url' => env('ASSET_URL'),
+    'asset_url' => env('ASSET_URL', 'https://proyecto-analisis-production.up.railway.app'),
+    
 
     /*
     |--------------------------------------------------------------------------
